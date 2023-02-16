@@ -1,56 +1,56 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
 }
 
-.clearfix::after {
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 
 
-h1 {
+h1{
   margin: 20px 0;
   font-size: 40px;
   color: #e53170;
 }
 
-h2 {
+h2{
   display: inline-block;
 }
 
-p {
+p{
   font-size: 18px;
 }
 
-img {
+img{
   width: 100%;
 }
 
-a {
+a{
   text-decoration: none;
   color: #00a9f4;
 }
 
 /* ! CSS per singole classi */
-.head-text {
+.head-text{
   text-align: center;
 }
 
-div.head p {
+div.head p{
   margin: 35px 0;
 }
 
-.container-text {
+.container-text{
   margin: 0 auto;
   width: 70%;
   min-width: 1200px;
 }
 
-.col {
+.box{
   margin: 15px;
   height: 100px;
   width: calc((100% - 90px) / 3);
@@ -66,7 +66,7 @@ div.head p {
   float: left;
 }
 
-.description {
+.description{
   display: inline-block;
   padding: 15px;
   line-height: 25px;
