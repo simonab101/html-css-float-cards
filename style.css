@@ -11,3 +11,64 @@
   clear: both;
 }
 
+
+h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  color: #e53170;
+}
+
+h2 {
+  display: inline-block;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #00a9f4;
+}
+
+/* ! CSS per singole classi */
+.head-text {
+  text-align: center;
+}
+
+div.head p {
+  margin: 35px 0;
+}
+
+.container-text {
+  margin: 0 auto;
+  width: 70%;
+  min-width: 1200px;
+}
+
+.col {
+  margin: 15px;
+  height: 100px;
+  width: calc((100% - 90px) / 3);
+  float: left;
+  background-color: #0f0e17;
+  color: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,.5);
+}
+
+.container{
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.description {
+  display: inline-block;
+  padding: 15px;
+  line-height: 25px;
+}
+
